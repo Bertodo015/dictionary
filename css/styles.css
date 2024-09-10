@@ -59,29 +59,29 @@
     justify-content: center;
 }
 
-.show-card {
+.card {
     width: 22%;
     margin: 20px;
     padding: 20px;
-    background-color: var(--color4);
+    background-color: var(--backgroundColor1);
     box-sizing: border-box;    /*22% considerendo tudo*/
     display: flex;
     flex-direction: column;
 }
 
-.show-card img {
+.card img {
     cursor: pointer;
     width: 100%;
 }
 
-.show-card p {
+.card p {
     font-family: "Black";
     color: var(--text-color);
     text-align: center;
     font-size: 24px;    /*arrumar depois*/
 }
 
-.show-card a {
+.card a {
     text-decoration: none;
     color: var(--text-color);
 }
