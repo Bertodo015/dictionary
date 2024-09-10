@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +10,23 @@
     <link rel="stylesheet" href="./css/responsive.css">
     <title>Dicionário</title>
 </head>
+
 <body>
-    
+    <div id="container">
+        <div id="form-area">
+            <form>
+                <input type="text" id="query" placeholder="Digite o termo" />
+
+                <input type="submit" value="Buscar" />
+            </form>
+        </div>
+    </div>
+
+    <p id="not-found-message">Nenhum resultado encontrado</p>
+
+    <div id="card"></div>
+
+    <script type="module" src="./js/index.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,12 @@
+/*https://coolors.co/6e0d25-d38676-ffffc7-f0eeff-2b3a67-f18805*/
+
+:root {
+    --textColor: white;
+    --backgroundColor1: #ffffc7;
+    --backgroundColor2: #f0eeff;
+    --containerCards:  #6e0d25;
+    --shadowCard: #d38676;
+    --containerDetails: #2b3a67;
+    --shadowDetails: #f18805;
+    --focus: #00f2f2;
+}

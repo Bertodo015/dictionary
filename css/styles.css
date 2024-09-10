@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    background-color: var(--backgroundColor2);
+}
+
+#container {
+    padding: 50px 0;
+}
+
+#form-area {
+    width: 600px;
+    margin: 0 auto 30px auto;
+    padding: 20px;
+    border: 2px solid var(--containerCards);
+    border-radius: 20px;
+    box-shadow: 10px 10px 50px var(--shadowCard),
+        -10px -10px 50px var(--shadowCard);
+}
+
+#form-area form {
+    text-align: center;
+}
+
+#query {
+    width: 400px;
+    height: 34px;
+    font-family: 'Regular';
+    text-align: center;
+    font-size: 100%;
+    border: 1px solid var(--containerCards);
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#query:focus {
+    outline: 2px solid var(--focus);
+}
+
+#form-area input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    font-family: "Bold";
+    font-size: 100%;
+    border-radius: 10px;
+    background-color: var(--containerCards);
+    color: var(--textColor);
+    cursor: pointer;
+}
+
+#not-found-message {
+    text-align: center;
+    font-family: "Black";
+    color: var(--text-color);
+    display: none;
+}
+
+#card {
+    display: flex; 
+    justify-content: center;
+}
+
+.show-card {
+    width: 22%;
+    margin: 20px;
+    padding: 20px;
+    background-color: var(--color4);
+    box-sizing: border-box;    /*22% considerendo tudo*/
+    display: flex;
+    flex-direction: column;
+}
+
+.show-card img {
+    cursor: pointer;
+    width: 100%;
+}
+
+.show-card p {
+    font-family: "Black";
+    color: var(--text-color);
+    text-align: center;
+    font-size: 24px;    /*arrumar depois*/
+}
+
+.show-card a {
+    text-decoration: none;
+    color: var(--text-color);
+}
