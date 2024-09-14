@@ -69,11 +69,6 @@
     flex-direction: column;
 }
 
-.card img {
-    cursor: pointer;
-    width: 100%;
-}
-
 .card p {
     font-family: "Black";
     color: var(--text-color);
